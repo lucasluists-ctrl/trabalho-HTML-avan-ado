@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,87 +10,125 @@
     <meta name="author" content="Lucas Luis">
     <title>Cadastro Enciclopedia ROBLOX</title>
 </head>
+
 <body>
-    <!-- banner roblox -->
+    <!-- Header e banner-->
     <header>
-        <h1>Cadastro Enciclopedia ROBLOX</h1>
-        <img
-            src="gif/Enciclopedia ROBLOX.gif"
-            alt="Logo Roblox"
-            width="600"
-        >
+        <p align="center">
+            <img src="gif/Enciclopedia ROBLOX.gif" alt="Enciclopédia Roblox" width="90%">
+        </p>
     </header>
     <!--conteúdo principal-->
     <main>
+        <section>
+            <!-- tabela com 3 colunas -->
+            <table width="100%" align="center">
+                <tr>
+                    <!-- coluna esquerda -->
+                    <td width="25%" align="center">
+                        <aside>
+                            <img src="gif/cadastro gif.gif" alt="Imagem 1" width="50%">
+                        </aside>
+                    </td>
+                    <!--coluna formulario -->
+                    <td width="50%" align="center">
+                        <article>
+                            <fieldset>
+                                <legend>
+                                    <strong> Cadastra-se</strong>
+                                </legend>
 
-    <section>
-    <table width="100%">
-        <tr>
-            <td width="25%" align="center">
-                <aside>
-                 <img src="gif/Enciclopedia ROBLOX.gif" alt="Imagem 1" width="100%">
-                </aside>   
-            </td>
-<!--formulario -->
-            <td width=”50%”>
-            <article>
-                <fieldset>
-                <legend>
-                    <strong> crie sua conta</strong>
-                </legend>
-                <h2>Entre na maior enciclopédia do Roblox de graça !</H2>
-                <p>
-                    crie seu perfil
-                </p>
-<!-- ############################-->
-                <form action="index.html" method="post">
+                                <h2>⊹₊˚‧︵Entre na maior enciclopédia do ROBLOX de graça !︵‧˚₊⊹</H2>
 
-                    <label for="nome">Nome:</label>
+                                <p>
+                                    crie seu perfil
+                                </p>
 
-                    <input type="text" name="nome" id="nome" required>
+                                <!-- Formulário de cadastro -->
+                                <form action="html/inicio.html">
 
-                    <br><br>
+                                    <label for="nome">🌈✦ Nome:</label>
+                                    <input type="text" name="nome" id="nome" required>
 
-                    <label for="email">Email:</label>
+                                    <br>
+                                    <br>
 
-                    <input type="email" name="email" id="email" required>
 
-                    <br><br>
-                    
-                    <label for="senha">Senha:</label>
+                                    <label for="email">🌈✦ Email:</label>
+                                    <input type="email" name="email" id="email" required>
 
-                    <input type="password" name="senha" id="senha" required>
+                                    <br>
+                                    <br>
 
-                    <br><br>
-                    <label for="data_nascimento">Data de Nascimento:</label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" required>
-                    <br><br>
-                    <label for="jogo_favorito">Jogo Favorito:</label>
-                    <input type="text" name="jogo_favorito" id="jogo_favorito" name="jogo"
-                    list="jogos" placeholder="Digite seu jogo favorito no Roblox" >
-                    <datalist id="jogos">
-                        <option value="Adopt Me!">
-                        <option value="Dress to Impress">
-                        <option value="Tower of Hell">
-                        <option value="Arsenal">
-                        <option value="Murder Mystery 2">
-                    </datalist>
-                    <br><br>
-                    <input type="submit" value="Cadastrar" style="width: 200px; height: 60px;">
-                    <br>
-                    <br>
-                </form>
-                <fieldset>
+                                    <label for="senha">🌈✦ Senha:</label>
+                                    <input type="password" name="senha" id="senha" required>
 
-            </article>
-        </td>
-        <td width="25%" align="center">
-            <aside>
-                <img src="" alt="Imagem 2" width="100%">
-            </aside>
-        </td>
-    </tr>
-</table>
-</main>
+                                    <br>
+                                    <br>
+
+                                    <label for="data_nascimento">🌈✦ Data de Nascimento:</label>
+                                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+
+                                    <br>
+                                    <br>
+
+                                    <label for="jogo_favorito">🌈✦ Jogo Favorito:</label>
+                                    <input type="text" name="jogo_favorito" id="jogo_favorito" list="jogos"
+                                        placeholder="Digite seu jogo favorito no Roblox">
+                                    <!-- Lista de opções de jogos -->
+                                    <datalist id="jogos">
+                                        <option value="Adopt Me!">
+                                        <option value="Dress to Impress">
+                                        <option value="Tower of Hell">
+                                        <option value="Arsenal">
+                                        <option value="Murder Mystery 2">
+                                    </datalist>
+
+                                    <!-- ################################ -->
+
+                                    <br>
+                                    <br>
+
+                                    <!-- Termos de serviço e política de privacidade -->
+                                    <p align="center">Ao se cadastrar você concorda com nossos <a
+                                            href="termos.html">Termos de Serviço</a> e <a
+                                            href="privacidade.html">Política de Privacidade</a>.
+                                    </p>
+
+                                    <!-- Botão de envio -->
+                                    <p align="center">
+                                        <input type="submit" value="Cadastrar" style="width: 200px; height: 60px;">
+                                    </p>
+
+                                    <br>
+                                    <br>
+
+                                    <!-- finaliza formulario-->
+                                </form>
+                            </fieldset>
+                        </article>
+
+                        <!-- coluna direita -->
+                    </td>
+                    <td width="25%" align="center">
+                        <aside>
+                            <img src="gif/cadastro gif.gif" alt="Imagem 2" width="50%">
+                        </aside>
+                    </td>
+                    <!-- finaliza coluna direita -->
+                </tr>
+                <!-- finaliza tabela -->
+            </table>
+            <!-- finaliza conteúdo principal -->
+        </section>
+    </main>
+    <!-- rodapé -->
+    <footer>
+        <p align="center">
+            <img src="gif/Final de Enciclopedia ROBLOX.gif" alt="Enciclopédia Roblox" width="90%">
+        </p>
+    </footer>
+    <!-- finaliza corpo -->
 </body>
+
 </html>
